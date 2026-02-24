@@ -1,0 +1,17 @@
+apiVerison: v1
+kind: PersistentVolume
+metadata:
+  name: mongodb-pv
+  labels: 
+    type: local 
+    app: mongodb
+spec:
+  storageClassName: gp2
+  capacity:
+    storage: 5Gi
+  accessModes: 
+    - ReadWriteOnce
+  awsElasticBlockStore:
+    volumeID: vol-0c1a2b3c4d5e6f7g8
+    fsType: ext4
+  persistentVolumeReclaimPolicy: Retain
