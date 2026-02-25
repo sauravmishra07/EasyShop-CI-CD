@@ -1,4 +1,4 @@
-# Kind Cluster Setup Guide for EasyShop
+# Deployment With Kind Cluster Setup Guide for EasyShop
 
 This guide will help you set up a Kind (Kubernetes in Docker) cluster for the EasyShop application. Instructions are provided for Windows, Linux, and macOS.
 
